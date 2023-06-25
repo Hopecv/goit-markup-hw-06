@@ -702,7 +702,7 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.name-inp:focus +.name-icon {
+.name-inp:focus + .name-icon {
   fill: var(--t-color--);
 }
 .input {
@@ -767,6 +767,11 @@ img {
   justify-content: center;
   fill: transparent;
 }
+.com-inp-area:checked + .privacy-text {
+  background-color: var(--next-color--);
+  fill: var(--too-color--);
+  border: none;
+}
 .label-text {
   margin-left: 8px;
   font-size: 12px;
@@ -774,6 +779,7 @@ img {
 .privacy-hiper {
   color: var(--t-color--);
 }
+
 .btn-inp-wrapp {
   display: block;
   border-radius: 4px;
