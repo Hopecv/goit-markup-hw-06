@@ -478,10 +478,12 @@ img {
   text-align: center;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
-.foot-btn-sbsc {
-  margin-right: 16px;
+.foot-svg-btn {
+  margin-left: 16px;
 }
+
 /* portfolio */
 /* основна частина */
 
