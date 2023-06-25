@@ -722,6 +722,9 @@ img {
 .name-inp:focus {
   border-color: var(--t-color--);
 }
+.name-inp:focus + .name-icon {
+  fill: var(--next-color--);
+}
 .privacy-class {
   font-size: 12px;
   line-height: 1.17;
