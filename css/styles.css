@@ -9,6 +9,7 @@
   --next-color--: #404bbf;
   --butt-color--: #e7e9fc;
   --new-color--: #8e8f99;
+  --modal-text--: #8e8f99;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -668,7 +669,9 @@ img {
   pointer-events: none;
 }
 .backdrop {
+  padding: 72px 24px 24px 24px;
 }
+
 .header-inp {
   text-align: center;
   font-family: Roboto;
@@ -678,6 +681,19 @@ img {
   font-size: 16px;
   margin-top: 72px;
   margin-bottom: 16px;
+  color: var(--color--);
+}
+.first-div {
+  margin-bottom: 8px;
+}
+.name-lb {
+  display: block;
+  font-size: 12px;
+  font-family: Roboto;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+  color: var(--modal-text--);
 }
 .input {
   margin: 16px 24px 8px 24px;

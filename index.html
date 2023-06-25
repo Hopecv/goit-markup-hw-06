@@ -436,33 +436,39 @@
     <!-- modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-                <button type="button" class="modal-btn" data-modal-close>
+        <button type="button" class="modal-btn" data-modal-close>
           <svg class="modal-svg" width="8" height="8">
             <use href="./images/icons.svg#icon-cross"></use>
           </svg>
         </button>
-        <p class="header-inp">
-          Leave your contacts and we will call you back
-        </p>
+        <p class="header-inp">Leave your contacts and we will call you back</p>
         <form class="contact-form">
-          
-          <input type="text" class="name-inp input" />
-          <input type="tel" class="phone-inp input" />
-          <input type="email" class="mail-inp input" />
-          <input type="text" class="text-inp" placeholder="Text input" />
+          <div class="first-div">
+            <label class="name-lb">Name</label>
+            <div>
+              <input type="text" class="name-inp input" />
+              <svg>
+                <use></use>
+              </svg>
+            </div>
 
-          <label class="chack-label">
-            <input
-              type="checkbox"
-              class="check-inp"
-              value="I accept the
+            <input type="tel" class="phone-inp input" />
+            <input type="email" class="mail-inp input" />
+            <input type="text" class="text-inp" placeholder="Text input" />
+
+            <label class="chack-label">
+              <input
+                type="checkbox"
+                class="check-inp"
+                value="I accept the
             terms and conditions of the Privacy Policy"
-            />
-            <span class="label-text"
-              >I accept the terms and conditions of the Privacy Policy</span
-            ></label
-          >
-          <button type="submit" class="btn-inp-wrapp">Send</button>
+              />
+              <span class="label-text"
+                >I accept the terms and conditions of the Privacy Policy</span
+              ></label
+            >
+            <button type="submit" class="btn-inp-wrapp">Send</button>
+          </div>
         </form>
       </div>
     </div>
