@@ -416,7 +416,7 @@
           <form class="footer-form">
             <label class="mail-input-label" for="mail-input">
               <input
-              name="footer-inp-sub"
+                name="footer-inp-sub"
                 type="email"
                 id="mail-input"
                 placeholder="E-mail"
@@ -436,8 +436,15 @@
     <!-- modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <p class="header-inp">Leave your contacts and we will call you back</p>
+                <button type="button" class="modal-btn" data-modal-close>
+          <svg class="modal-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
         <form class="contact-form">
+          <p class="header-inp">
+            Leave your contacts and we will call you back
+          </p>
           <input type="text" class="name-inp input" />
           <input type="tel" class="phone-inp input" />
           <input type="email" class="mail-inp input" />
@@ -456,11 +463,6 @@
           >
           <button type="submit" class="btn-inp-wrapp">Send</button>
         </form>
-        <button type="button" class="modal-btn" data-modal-close>
-          <svg class="modal-svg" width="8" height="8">
-            <use href="./images/icons.svg#icon-cross"></use>
-          </svg>
-        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
