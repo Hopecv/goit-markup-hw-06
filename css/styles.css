@@ -761,7 +761,7 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.com-inp-area:checked + .privacy-text {
+.com-inp-area:checked + .privacy-class .privacy-text {
   background-color: var(--next-color--);
   fill: var(--too-color--);
   border: none;
