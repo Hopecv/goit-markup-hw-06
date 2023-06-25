@@ -727,12 +727,6 @@ img {
   letter-spacing: 0.04em;
   color: var(--new-color--);
 }
-.text-inp {
-  margin: 16px 24px 8px 24px;
-  min-height: 120px;
-  border-radius: 5px;
-  width: 360px;
-}
 .comment-div {
   margin-bottom: 16px;
 }
@@ -771,10 +765,6 @@ img {
   background-color: var(--next-color--);
   fill: var(--too-color--);
   border: none;
-}
-.label-text {
-  margin-left: 8px;
-  font-size: 12px;
 }
 .privacy-hiper {
   color: var(--t-color--);
